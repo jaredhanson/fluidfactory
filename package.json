@@ -1,6 +1,6 @@
 {
   "name": "fluidfactory",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adaptive object creational pattern used with dependency injection.",
   "keywords": [
     "di",
