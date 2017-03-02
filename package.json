@@ -1,0 +1,38 @@
+{
+  "name": "fluidfactory",
+  "version": "0.0.0",
+  "description": "Adaptive object creational pattern used with dependency injection.",
+  "keywords": [
+    "di",
+    "injection",
+    "ioc"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/fluidfactory.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/fluidfactory/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^2.0.0",
+    "chai": "^3.0.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}
